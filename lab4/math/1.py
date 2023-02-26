@@ -1,4 +1,3 @@
-pi = 22/7
-degree = float(input(" "))
-radian = degree * ((pi/180))
-print(radian)
+import math
+degree = float(input(""))
+print(math.radians(degree))
