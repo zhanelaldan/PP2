@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 
 
-def config(filename=r'desktop.ini', section='postgresql'):
+def config(filename=r'C:\pp2\lab10\desktop.ini', section='postgresql'):
     # создайте синтаксический анализаторя
     parser = ConfigParser()
     # прочитать конфигурационный файл
